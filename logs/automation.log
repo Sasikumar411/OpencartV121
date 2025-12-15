@@ -1,0 +1,8 @@
+14:31.362 [main] INFO  testCases.TC001_AccountResgistrationTest - ****** Starting TC001_AccountResgistrationTest *****
+14:31.405 [main] INFO  testCases.TC001_AccountResgistrationTest - Clicked on MyAccount link
+14:31.923 [main] INFO  testCases.TC001_AccountResgistrationTest - Clicked on Register Link
+14:31.925 [main] INFO  testCases.TC001_AccountResgistrationTest - Providing customer details...
+14:32.510 [main] INFO  testCases.TC001_AccountResgistrationTest - Validating expected message
+14:33.425 [main] INFO  testCases.TC001_AccountResgistrationTest - **** Finished TC001_AccountResgistrationTest ****
+14:35.859 [main] INFO  testCases.TC002_Login_Test - **** Starting TC002_Login_Test *****
+14:37.033 [main] INFO  testCases.TC002_Login_Test - **** Finished TC002_Login_Test *****

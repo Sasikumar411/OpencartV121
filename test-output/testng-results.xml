@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-12-15T12:35:06 IST" name="Master Suite" finished-at="2025-12-15T12:36:11 IST" duration-ms="64996">
+    <groups>
+      <group name="Master">
+        <method signature="TC001_AccountResgistrationTest.verify_account_resgistration()[pri:0, instance:testCases.TC001_AccountResgistrationTest@535779e4]" name="verify_account_resgistration" class="testCases.TC001_AccountResgistrationTest"/>
+        <method signature="TC002_Login_Test.verify_login()[pri:0, instance:testCases.TC002_Login_Test@1fde5d22]" name="verify_login" class="testCases.TC002_Login_Test"/>
+      </group> <!-- Master -->
+      <group name="Sanity">
+        <method signature="TC002_Login_Test.verify_login()[pri:0, instance:testCases.TC002_Login_Test@1fde5d22]" name="verify_login" class="testCases.TC002_Login_Test"/>
+      </group> <!-- Sanity -->
+      <group name="Regression">
+        <method signature="TC001_AccountResgistrationTest.verify_account_resgistration()[pri:0, instance:testCases.TC001_AccountResgistrationTest@535779e4]" name="verify_account_resgistration" class="testCases.TC001_AccountResgistrationTest"/>
+      </group> <!-- Regression -->
+    </groups>
+    <test started-at="2025-12-15T12:35:06 IST" name="Test" finished-at="2025-12-15T12:36:11 IST" duration-ms="64996">
+      <class name="testCases.TC001_AccountResgistrationTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC001_AccountResgistrationTest@535779e4]" started-at="2025-12-15T12:35:06 IST" name="setup" finished-at="2025-12-15T12:35:54 IST" duration-ms="48080" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mac]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_account_resgistration()[pri:0, instance:testCases.TC001_AccountResgistrationTest@535779e4]" started-at="2025-12-15T12:35:54 IST" name="verify_account_resgistration" finished-at="2025-12-15T12:35:59 IST" duration-ms="4687" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_account_resgistration -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC001_AccountResgistrationTest@535779e4]" started-at="2025-12-15T12:35:59 IST" name="tearDown" finished-at="2025-12-15T12:35:59 IST" duration-ms="135" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC001_AccountResgistrationTest -->
+      <class name="testCases.TC002_Login_Test">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_Login_Test@1fde5d22]" started-at="2025-12-15T12:35:59 IST" name="setup" finished-at="2025-12-15T12:36:07 IST" duration-ms="8562" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mac]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_login()[pri:0, instance:testCases.TC002_Login_Test@1fde5d22]" started-at="2025-12-15T12:36:07 IST" name="verify_login" finished-at="2025-12-15T12:36:10 IST" duration-ms="3076" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_login -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC002_Login_Test@1fde5d22]" started-at="2025-12-15T12:36:10 IST" name="tearDown" finished-at="2025-12-15T12:36:11 IST" duration-ms="131" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC002_Login_Test -->
+    </test> <!-- Test -->
+  </suite> <!-- Master Suite -->
+</testng-results>
