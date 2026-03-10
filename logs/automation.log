@@ -6,3 +6,41 @@
 14:33.425 [main] INFO  testCases.TC001_AccountResgistrationTest - **** Finished TC001_AccountResgistrationTest ****
 14:35.859 [main] INFO  testCases.TC002_Login_Test - **** Starting TC002_Login_Test *****
 14:37.033 [main] INFO  testCases.TC002_Login_Test - **** Finished TC002_Login_Test *****
+20:17.127 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/Users/sasikumar/Java with selenium/Selenium WebDriver/OpencartV121/master.xml"
+20:20.067 [main] INFO  testCases.TC001_AccountResgistrationTest - ****** Starting TC001_AccountResgistrationTest *****
+20:20.109 [main] INFO  testCases.TC001_AccountResgistrationTest - Clicked on MyAccount link
+20:20.488 [main] INFO  testCases.TC001_AccountResgistrationTest - Clicked on Register Link
+20:20.489 [main] INFO  testCases.TC001_AccountResgistrationTest - Providing customer details...
+20:20.755 [main] INFO  testCases.TC001_AccountResgistrationTest - Validating expected message
+20:21.676 [main] INFO  testCases.TC001_AccountResgistrationTest - **** Finished TC001_AccountResgistrationTest ****
+20:24.271 [main] INFO  testCases.TC002_Login_Test - **** Starting TC002_Login_Test *****
+20:25.469 [main] INFO  testCases.TC002_Login_Test - **** Finished TC002_Login_Test *****
+20:51.712 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/Users/sasikumar/Java with selenium/Selenium WebDriver/OpencartV121/master.xml"
+20:59.210 [main] INFO  testCases.TC001_AccountResgistrationTest - ****** Starting TC001_AccountResgistrationTest *****
+20:59.273 [main] INFO  testCases.TC001_AccountResgistrationTest - Clicked on MyAccount link
+20:00.164 [main] INFO  testCases.TC001_AccountResgistrationTest - Clicked on Register Link
+20:00.165 [main] INFO  testCases.TC001_AccountResgistrationTest - Providing customer details...
+20:00.552 [main] INFO  testCases.TC001_AccountResgistrationTest - Validating expected message
+20:01.436 [main] INFO  testCases.TC001_AccountResgistrationTest - **** Finished TC001_AccountResgistrationTest ****
+20:05.468 [main] INFO  testCases.TC002_Login_Test - **** Starting TC002_Login_Test *****
+20:06.871 [main] INFO  testCases.TC002_Login_Test - **** Finished TC002_Login_Test *****
+19:16.077 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/Users/sasikumar/Java with selenium/Selenium WebDriver/OpencartV121/master.xml"
+19:16.327 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/sasikumar/Java with selenium/Selenium WebDriver/OpencartV121/master.xml
+
+19:26.225 [main] INFO  testCases.TC001_AccountResgistrationTest - ****** Starting TC001_AccountResgistrationTest *****
+19:26.547 [main] INFO  testCases.TC001_AccountResgistrationTest - Clicked on MyAccount link
+19:27.457 [main] INFO  testCases.TC001_AccountResgistrationTest - Clicked on Register Link
+19:27.460 [main] INFO  testCases.TC001_AccountResgistrationTest - Providing customer details...
+19:29.506 [main] INFO  testCases.TC001_AccountResgistrationTest - Validating expected message
+19:29.570 [main] INFO  testCases.TC001_AccountResgistrationTest - **** Finished TC001_AccountResgistrationTest ****
+19:48.670 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/Users/sasikumar/Java with selenium/Selenium WebDriver/OpencartV121/master.xml"
+19:48.840 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/sasikumar/Java with selenium/Selenium WebDriver/OpencartV121/master.xml
+
+19:59.792 [main] INFO  testCases.TC001_AccountResgistrationTest - ****** Starting TC001_AccountResgistrationTest *****
+19:00.199 [main] INFO  testCases.TC001_AccountResgistrationTest - Clicked on MyAccount link
+19:00.968 [main] INFO  testCases.TC001_AccountResgistrationTest - Clicked on Register Link
+19:00.972 [main] INFO  testCases.TC001_AccountResgistrationTest - Providing customer details...
+19:07.787 [main] INFO  testCases.TC001_AccountResgistrationTest - Validating expected message
+19:08.383 [main] INFO  testCases.TC001_AccountResgistrationTest - **** Finished TC001_AccountResgistrationTest ****

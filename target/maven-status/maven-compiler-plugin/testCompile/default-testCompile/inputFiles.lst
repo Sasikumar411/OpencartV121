@@ -7,6 +7,7 @@
 /Users/sasikumar/Java with selenium/Selenium WebDriver/OpencartV121/src/test/java/testCases/TC001_AccountResgistrationTest.java
 /Users/sasikumar/Java with selenium/Selenium WebDriver/OpencartV121/src/test/java/testCases/TC002_Login_Test.java
 /Users/sasikumar/Java with selenium/Selenium WebDriver/OpencartV121/src/test/java/testCases/TC003_LoginDDT.java
+/Users/sasikumar/Java with selenium/Selenium WebDriver/OpencartV121/src/test/java/testCases/TC_004_Search.java
 /Users/sasikumar/Java with selenium/Selenium WebDriver/OpencartV121/src/test/java/utilities/DataProviders.java
 /Users/sasikumar/Java with selenium/Selenium WebDriver/OpencartV121/src/test/java/utilities/ExcelUtility.java
 /Users/sasikumar/Java with selenium/Selenium WebDriver/OpencartV121/src/test/java/utilities/ExtentReportManager.java
