@@ -82,13 +82,15 @@ public class ExtentReportManager implements ITestListener {
 		test.log(Status.INFO, result.getThrowable().getMessage());
 		
 		try {
-			String imgPath = new BaseClass().captureScreen(result.getName());
-			test.addScreenCaptureFromPath(imgPath);
-			
+		    BaseClass base = (BaseClass) result.getInstance();
+
+		    String imgPath = base.captureScreen(result.getName());
+
+		    test.addScreenCaptureFromPath(imgPath);
 		}
-		catch (IOException e1) 
-		{
-			e1.printStackTrace();
+		catch (Exception e) {
+		    test.log(Status.WARNING,
+		        "Screenshot capture failed: " + e.getMessage());
 		}
 	}
 

@@ -1,3 +1,4 @@
+testCases/TC_004_Search.class
 pageObjects/LoginPage.class
 testCases/TC003_LoginDDT.class
 pageObjects/MyAccountPage.class

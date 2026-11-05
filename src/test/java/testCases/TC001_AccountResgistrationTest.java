@@ -60,9 +60,12 @@ public class TC001_AccountResgistrationTest extends BaseClass
 		}
 		catch(Exception e)
 		{
-			AssertJUnit.fail();
+		    logger.error("Account registration test failed", e);
+
+		    Assert.fail(
+		        "Account registration failed: " + e.getMessage(), e
+		    );
 		}
-		logger.info("**** Finished TC001_AccountResgistrationTest ****");
 	}
 	
 	

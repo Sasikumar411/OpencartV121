@@ -1,4 +1,4 @@
-package testBase;
+	package testBase;
 
 import java.io.File;
 import java.io.FileReader;
@@ -101,11 +101,13 @@ public Properties p;
 		driver.manage().window().maximize();
 	}
 	
-	@AfterClass(groups={"Sanity","Regression","Master"})
+	@AfterClass(alwaysRun = true)
 	public void tearDown()
 	{
-		driver.close();
-		
+	    if (driver != null) {
+	        driver.quit();
+	        driver = null;
+	    }
 	}
 	
 	public String randomString()
@@ -129,16 +131,28 @@ public Properties p;
 
 	public String captureScreen(String tname) throws IOException {
 		
-		String timeStamp = new SimpleDateFormat("yyyyMMddhhmmss").format(new Date());
-		
-		TakesScreenshot takeScreenshot= (TakesScreenshot) driver;
-		File sourceFile=takeScreenshot.getScreenshotAs(OutputType.FILE);
-		
-		String targetFilePath=System.getProperty("user.dir")+"//screenshots//" +tname+ "_" + timeStamp + ".png";
-		File targetFile=new File(targetFilePath);
-		
-		sourceFile.renameTo(targetFile);
-		
+	    if (driver == null) {
+	        throw new IllegalStateException(
+	            "WebDriver is null. Screenshot cannot be captured."
+	        );
+	    }
+
+	    String timeStamp =
+	        new SimpleDateFormat("yyyyMMddHHmmss").format(new Date());
+
+	    File sourceFile = ((TakesScreenshot) driver)
+	            .getScreenshotAs(OutputType.FILE);
+
+	    String targetFilePath = System.getProperty("user.dir")
+	            + "/screenshots/" + tname + "_" + timeStamp + ".png";
+
+	    File targetFile = new File(targetFilePath);
+
+	    targetFile.getParentFile().mkdirs();
+
+	    org.apache.commons.io.FileUtils.copyFile(
+	        sourceFile, targetFile
+	    );
 		
 		return targetFilePath;
 	}
